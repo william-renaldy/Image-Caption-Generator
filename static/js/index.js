@@ -34,7 +34,7 @@ function change(){
 
 $(document).ready(function(){
     $("form").on("submit",function(event){
-        alert();
+        //alert();
 
 
         var form_data = new FormData();
