@@ -21,4 +21,4 @@ if image:
     caption += "."
 
 
-    st.markdown(caption)
+    st.header(caption)
