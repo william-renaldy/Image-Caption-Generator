@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request,redirect,url_for
 from processor import GenerateDescription
-
+#flask based web app for image caption generation
 app = Flask(__name__)
 
 generator = GenerateDescription()
